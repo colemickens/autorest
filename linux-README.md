@@ -5,7 +5,7 @@
     ```shell
     curl -sS http://storage.bos.xamarin.com/bot-provisioning/PortableReferenceAssemblies-2014-04-14.zip > /tmp/pcl-assemblies.zip
     unzip /tmp/pcl-assemblies.zip -d /tmp/pcl-assemblies && mv /tmp/pcl-assemblies/PortableReferenceAssemblies-2014-04-14 /tmp/pcl-assemblies/.NETPortable
-    export XBUILD_FRAMEWORK_FOLDERS_PATH=/tmp/pcl-assemblies/
+    export XBUILD_FRAMEWORK_FOLDERS_PATH=/home/cole/Code/microsoft/pcl-assemblies/
     ```
 
 3. now I get new errors to investigate later
